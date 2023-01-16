@@ -32,10 +32,8 @@ public class RobotContainer {
 
   // private int parth ="i like" 
 
-  GenericHID m_joy1 = new GenericHID(0);
-
-  private  XboxController rat = new XboxController(0);
-  private final JoystickButton m_joy0 = new JoystickButton(m_joy1, 1);
+  private final Joystick RC = new Joystick(0);
+  private final JoystickButton m_joy0 = new JoystickButton(RC, 1);
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
     // Configure the button bindings
