@@ -28,12 +28,12 @@ public class RobotContainer {
   private final MotorSpeedAdjust m_motorSpeedAdjust = new MotorSpeedAdjust();
 
   private final ExampleCommand m_autoCommand = new ExampleCommand(m_exampleSubsystem);
-
-
-  // private int parth ="i like" 
+ 
 
   private final Joystick RC = new Joystick(0);
   private final JoystickButton m_joy1 = new JoystickButton(RC, 1);
+
+  if (m_joy1.getRawButtonPressed)
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
     // Configure the button bindings
